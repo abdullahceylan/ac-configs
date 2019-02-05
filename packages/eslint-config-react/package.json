@@ -1,6 +1,6 @@
 {
   "name": "@abdullahceylan/eslint-config-react",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Abdullah Ceylan <ben@abdullahceylan.com>",
   "description": "ESLint React Configuration.",
   "homepage": "https://github.com/abdullahceylan/ac-configs/#readme",
@@ -19,7 +19,7 @@
     "prepublishOnly": "yarn format && yarn lint"
   },
   "dependencies": {
-    "@abdullahceylan/eslint-config": "^0.0.1",
+    "@abdullahceylan/eslint-config": "^1.0.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.1.0"
   },
