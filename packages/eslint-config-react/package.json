@@ -2,7 +2,7 @@
   "name": "@abdullahceylan/eslint-config-react",
   "version": "0.0.1",
   "author": "Abdullah Ceylan <ben@abdullahceylan.com>",
-  "description": "Personal ESLint React Configuration.",
+  "description": "ESLint React Configuration.",
   "homepage": "https://github.com/abdullahceylan/ac-configs/#readme",
   "repository": {
     "type": "git",

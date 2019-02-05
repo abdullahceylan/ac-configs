@@ -2,7 +2,7 @@
   "name": "@abdullahceylan/prettier-config",
   "version": "0.0.1",
   "author": "Abdullah Ceylan <ben@abdullahceylan.com>",
-  "description": "Personal Prettier Configuration.",
+  "description": "Prettier Configuration.",
   "homepage": "https://github.com/abdullahceylan/ac-configs/#readme",
   "repository": {
     "type": "git",

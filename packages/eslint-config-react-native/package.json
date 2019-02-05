@@ -2,7 +2,7 @@
   "name": "@abdullahceylan/eslint-config-react-native",
   "version": "0.0.1",
   "author": "Abdullah Ceylan <ben@abdullahceylan.com>",
-  "description": "Personal ESLint React Configuration.",
+  "description": "ESLint React Native Configuration.",
   "homepage": "https://github.com/abdullahceylan/ac-configs/#readme",
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
   "scripts": {
     "format": "prettier \"./**/*.js\" --config ../../.prettierrc.js --loglevel warn --write",
     "lint": "eslint \"./**/*.js\" --config ../../.eslintrc",
-    "prepublishOnly": "npm run format && npm run lint"
+    "prepublishOnly": "yarn format && yarn lint"
   },
   "dependencies": {
     "@abdullahceylan/eslint-config": "^0.0.1",
