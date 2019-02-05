@@ -1,6 +1,6 @@
 {
   "name": "@abdullahceylan/stylelint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Abdullah Ceylan <ben@abdullahceylan.com>",
   "description": "StyleLint Configuration.",
   "homepage": "https://github.com/abdullahceylan/ac-configs/#readme",
