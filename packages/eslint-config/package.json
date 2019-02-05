@@ -1,0 +1,34 @@
+{
+  "name": "@abdullahceylan/eslint-config",
+  "version": "0.0.1",
+  "author": "Abdullah Ceylan <ben@abdullahceylan.com>",
+  "description": "Personal ESLint Configuration.",
+  "homepage": "https://github.com/abdullahceylan/ac-configs/#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abdullahceylan/ac-configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abdullahceylan/ac-configs/issues"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier \"./**/*.js\" --config ../../.prettierrc.js --loglevel warn --write",
+    "lint": "eslint \"./**/*.js\" --config ../../.eslintrc",
+    "prepublishOnly": "yarn format && yarn lint"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint-plugin-flowtype": "^3.2.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^5.0.0",
+    "prettier": "^1.14.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

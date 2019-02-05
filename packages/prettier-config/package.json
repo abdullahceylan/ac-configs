@@ -1,0 +1,27 @@
+{
+  "name": "@abdullahceylan/prettier-config",
+  "version": "0.0.1",
+  "author": "Abdullah Ceylan <ben@abdullahceylan.com>",
+  "description": "Personal Prettier Configuration.",
+  "homepage": "https://github.com/abdullahceylan/ac-configs/#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abdullahceylan/ac-configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abdullahceylan/ac-configs/issues"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier \"./**/*.js\" --config ../../.prettierrc.js --loglevel warn --write",
+    "lint": "eslint \"./**/*.js\" --config ../../.eslintrc",
+    "prepublishOnly": "yarn format && yarn lint"
+  },
+  "peerDependencies": {
+    "prettier": "^1.14.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

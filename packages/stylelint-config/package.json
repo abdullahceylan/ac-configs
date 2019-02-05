@@ -1,0 +1,33 @@
+{
+  "name": "@abdullahceylan/stylelint-config",
+  "version": "0.0.1",
+  "author": "Abdullah Ceylan <ben@abdullahceylan.com>",
+  "description": "Personal Prettier Configuration.",
+  "homepage": "https://github.com/abdullahceylan/ac-configs/#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abdullahceylan/ac-configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abdullahceylan/ac-configs/issues"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "format": "stylelint \"./**/*.js\" --config ../../.stylelintrc.js",
+    "lint": "eslint \"./**/*.js\" --config ../../.eslintrc",
+    "prepublishOnly": "yarn format && yarn lint"
+  },
+  "dependencies": {
+    "stylelint-config-prettier": "^4.0.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.5.2"
+  },
+  "peerDependencies": {
+    "stylelint": "^9.10.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
