@@ -1,6 +1,13 @@
-# @abdullahceylan/eslint-react-config
+# @abdullahceylan/eslint-config-react
 
 ESLint React configurations that I've used.
+
+# Install
+`npm install --save @abdullahceylan/eslint-config-react`
+
+or 
+
+`yarn add --dev @abdullahceylan/eslint-config-react`
 
 # Usage
 - Create `.eslintrc.js` folder into root directory

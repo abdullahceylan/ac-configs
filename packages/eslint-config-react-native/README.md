@@ -1,6 +1,13 @@
-# @abdullahceylan/eslint-react-native-config
+# @abdullahceylan/eslint-config-react-native
 
 ESLint React Native configurations that I've used.
+
+# Install
+`npm install --save @abdullahceylan/eslint-config-react-native`
+
+or 
+
+`yarn add --dev @abdullahceylan/eslint-config-react-native`
 
 # Usage
 - Create `.eslintrc.js` folder into root directory
