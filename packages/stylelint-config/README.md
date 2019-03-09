@@ -3,7 +3,7 @@
 StyleLint configurations that I've used.
 
 # Install
-`npm install --save @abdullahceylan/stylelint-config`
+`npm install --save-dev @abdullahceylan/stylelint-config`
 
 or 
 

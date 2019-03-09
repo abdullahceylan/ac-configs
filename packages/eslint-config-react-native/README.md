@@ -3,7 +3,7 @@
 ESLint React Native configurations that I've used.
 
 # Install
-`npm install --save @abdullahceylan/eslint-config-react-native`
+`npm install --save-dev @abdullahceylan/eslint-config-react-native`
 
 or 
 

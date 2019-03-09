@@ -3,7 +3,7 @@
 Prettier configurations that I've used.
 
 # Install
-`npm install --save @abdullahceylan/prettier-config`
+`npm install --save-dev @abdullahceylan/prettier-config`
 
 or 
 

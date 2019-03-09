@@ -3,7 +3,7 @@
 ESLint configurations that I've used.
 
 # Install
-`npm install --save @abdullahceylan/eslint-config`
+`npm install --save-dev @abdullahceylan/eslint-config`
 
 or 
 

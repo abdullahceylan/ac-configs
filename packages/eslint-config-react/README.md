@@ -3,7 +3,7 @@
 ESLint React configurations that I've used.
 
 # Install
-`npm install --save @abdullahceylan/eslint-config-react`
+`npm install --save-dev @abdullahceylan/eslint-config-react`
 
 or 
 
