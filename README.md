@@ -10,6 +10,25 @@ The linting & formatting configurations that I've used.
 - [@abdullahceylan/eslint-config-react](packages/eslint-config-react)
 - [@abdullahceylan/eslint-config-react-native](packages/eslint-config-react-native)
 
+#### Usage
+- Create `.eslintrc.js` folder into root directory
+- Paste following:
+  ```js
+  module.exports = {
+    parser: 'babel-eslint',
+    extends: [
+      require('@abdullahceylan/eslint-config'),
+      require('@abdullahceylan/eslint-config-react'), // optional
+      require('@abdullahceylan/eslint-config-react-native'), // optional
+    ],
+    env: {
+      es6: true,
+    },
+    rules: {
+      // your own rules
+    },
+  };
+  ```
 
 ### [Prettier](https://prettier.io/)
 
