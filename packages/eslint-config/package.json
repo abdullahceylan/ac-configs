@@ -1,6 +1,6 @@
 {
   "name": "@abdullahceylan/eslint-config",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "author": "Abdullah Ceylan <ben@abdullahceylan.com>",
   "description": "ESLint Configuration.",
   "homepage": "https://github.com/abdullahceylan/ac-configs/#readme",
