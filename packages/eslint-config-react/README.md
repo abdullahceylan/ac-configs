@@ -16,8 +16,8 @@ or
   module.exports = {
     parser: 'babel-eslint',
     extends: [
-      require('@abdullahceylan/eslint-config'), // optional
-      require('@abdullahceylan/eslint-config-react'),
+      '@abdullahceylan/eslint-config', // optional
+      '@abdullahceylan/eslint-config-react',
     ],
     env: {
       es6: true,
