@@ -158,4 +158,4 @@ module.exports = {
     'flowtype/require-valid-file-annotation': 'warn',
     'flowtype/use-flow-type': 'warn',
   },
-}
+};

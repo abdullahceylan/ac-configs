@@ -28,14 +28,10 @@ module.exports = {
     // prohibit spelling mistakes
     'react/no-typos': 'error',
     // prohibit using the string ref
-    'react/no-string-refs': 'error',
-    // prohibit unescaped >, ", ' or } inside the component
-    'react/no-unescaped-entities': 'error',
+    'react/no-string-refs': 'error', // prohibit unescaped >, ", ' or } inside the component
+    'react/no-unescaped-entities': 'error',
     // prefer to create a component using ES6
-    'react/prefer-es6-class': [
-      'warn',
-      'always'
-    ],
+    'react/prefer-es6-class': ['warn', 'always'],
     // forbids using another component's prop types unless they are explicitly imported/exported.
     'react/forbid-foreign-prop-types': ['warn', { allowInPropTypes: true }],
     // prevent comment strings (e.g. beginning with // or /*) as a text node in JSX statements.
@@ -46,7 +42,7 @@ module.exports = {
     'react/jsx-no-target-blank': 'warn',
     // disallow undeclared variables in JSX
     'react/jsx-no-undef': 'error',
-    // enforce PascalCase for user-defined JSX components 
+    // enforce PascalCase for user-defined JSX components
     'react/jsx-pascal-case': [
       'warn',
       {
@@ -96,4 +92,4 @@ module.exports = {
     'jsx-a11y/role-supports-aria-props': 'warn',
     'jsx-a11y/scope': 'warn',
   },
-}
+};
